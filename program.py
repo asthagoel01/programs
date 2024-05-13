@@ -1660,7 +1660,7 @@ arr=[[1480,2],
 # group=[[1,2],[2,3],[3,1],[4,10],[5,7],[6,12],[7,5],[8,7],[9,13],[10,4],[11,9],[12,6],[13,11]]
 group={}
 count=1
-for i in range(1,len(arr)):
+for i in range(len(arr)):
     if((arr[i][0] in group.keys()) and (arr[i][1] in group.keys())):
         continue
     else:
