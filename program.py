@@ -1683,5 +1683,8 @@ for i in range(1,len(arr)):
           #     group[arr[i][1]]=count
           count+=1  
 
-for k,v in group.items():
-    print(k, v)
+for k in sorted(group.keys()):
+    print(k,group[k])
+
+# for k,v in group.items():
+#     print(k, v)
