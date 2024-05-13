@@ -1661,7 +1661,6 @@ arr=[[1480,2],
 group={}
 count=1
 for i in range(1,len(arr)):
-    print("value of count",count)
     if((arr[i][0] in group.keys()) and (arr[i][1] in group.keys())):
         continue
     else:
